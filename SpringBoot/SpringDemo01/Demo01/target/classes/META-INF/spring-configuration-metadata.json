@@ -1,0 +1,28 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "mcsql.net.Bean.Person",
+      "name": "person",
+      "type": "mcsql.net.Bean.Person"
+    }
+  ],
+  "properties": [
+    {
+      "name": "person.Name",
+      "description": "Description for person.Name.",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "mcsql.net.Bean.Person",
+      "defaultValue": 0,
+      "name": "person.age",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "mcsql.net.Bean.Person",
+      "name": "person.name",
+      "type": "java.lang.String"
+    }
+  ]
+}

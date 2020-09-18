@@ -1,0 +1,16 @@
+###SpingBoot 全局配置文件 application.yml，application.properties
+server:
+    port: 80
+spring:
+    profiles:
+        active: dev
+person:
+    Name: 张三${random.uuid:zhan}
+    age: 18${random.int:58}
+
+---
+spring:
+    profiles: dev
+server:
+    port: 8080
+---
