@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    username: root
+    password: YUNwei2020pp
+    url: jdbc:mysql://101.91.229.199:22/springboot?serverTimezone=UTC
+    driver-class-name: com.mysql.jdbc.Driver
+  #开启hiddenmethod 不然不支持del，put请求
+  #    spring.mvc.hiddenmethod.filter.enabled=true
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
+  redis:
+    host: 127.0.0.1
+#    type: org.springframework.jdbc.datasource.DelegatingDataSource
+mybatis:
+  configuration:
+#    开启驼峰命名法
+    map-underscore-to-camel-case: true
