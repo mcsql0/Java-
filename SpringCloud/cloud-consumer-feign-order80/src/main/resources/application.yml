@@ -1,0 +1,13 @@
+server:
+  port: 80
+eureka:
+  client:
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://eureka1.server.mcsql.net:7001/eureka, http://eureka2.server.mcsql.net:7002/eureka
+
+#  OpenFeign默认等待一秒钟，超过后报错
+ribbon:
+  ReadTimeout:  5000
+  ConnectTimeout: 5000
+

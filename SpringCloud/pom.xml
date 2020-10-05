@@ -12,6 +12,14 @@
         <module>cloud-api-commons</module>
         <module>cloud-providerconsul-payment8006</module>
         <module>cloud-consumerconsul-order80</module>
+        <module>cloud-consumer-feign-order80</module>
+        <module>cloud-eureka-server7001</module>
+        <module>cloud-eureka-server7002</module>
+        <module>cloud-provider-payment8001</module>
+        <module>cloudalibaba-provider-payment9001</module>
+        <module>cloudalibaba-provider-payment9202</module>
+        <module>cloudalibaba-consumer-nacos-order83</module>
+        <module>cloudalibaba-provider-payment9201</module>
     </modules>
 
 
@@ -89,5 +97,18 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <fork>true</fork>
+                    <addResources>true</addResources>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
