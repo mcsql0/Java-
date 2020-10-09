@@ -4,7 +4,9 @@ import com.alibaba.csp.sentinel.annotation.SentinelResource;
 import com.alibaba.csp.sentinel.slots.block.BlockException;
 import net.mcsql.entitles.CommonResult;
 import net.mcsql.entitles.Payment;
+import net.mcsql.service.PaymentService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -24,6 +26,8 @@ public class CircleBreakerController {
     @SentinelResource(value = "fallback",
             fallback = "handlerFallback", blockHandler = "blockHandler",
             exceptionsToIgnore = {IllegalArgumentException.class})
+    //exceptionsToIgnore = {IllegalArgumentException.class} 让fallback兜底方法无视IllegalArgumentException异常；
+    // 也就是说IllegalArgumentException不兜底
     public CommonResult<Payment> fallback(@PathVariable Long id)
     {
         CommonResult<Payment> result = restTemplate.getForObject(SERVICE_URL + "/paymentSQL/"+id,CommonResult.class,id);
@@ -48,4 +52,5 @@ public class CircleBreakerController {
         Payment payment = new Payment(id,"null");
         return new CommonResult<>(445,"blockHandler-sentinel限流,无此流水: blockException  "+blockException.getMessage(),payment);
     }
+
 }
