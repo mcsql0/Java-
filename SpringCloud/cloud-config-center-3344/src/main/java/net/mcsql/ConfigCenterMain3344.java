@@ -2,12 +2,12 @@ package net.mcsql;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.cloud.config.server.EnableConfigServer;
 
 @SpringBootApplication
-@EnableEurekaClient
-public class GateWayMain9527 {
+@EnableConfigServer
+public class ConfigCenterMain3344 {
     public static void main(String[] args) {
-        SpringApplication.run(GateWayMain9527.class, args);
+        SpringApplication.run(ConfigCenterMain3344.class, args);
     }
 }
