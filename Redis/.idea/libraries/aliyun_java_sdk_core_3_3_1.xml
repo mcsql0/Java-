@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="aliyun-java-sdk-core-3.3.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Verify_code/web/WEB-INF/lib/aliyun-java-sdk-core-3.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Verify_code/web/WEB-INF/lib/aliyun-java-sdk-dysmsapi-1.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Verify_code/web/WEB-INF/lib/commons-pool2-2.4.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Verify_code/web/WEB-INF/lib/jedis-2.9.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Verify_code/web/WEB-INF/lib/jsp-api-2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Verify_code/web/WEB-INF/lib/servlet-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Verify_code/web/WEB-INF/lib/taobao-sdk-java-auto.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

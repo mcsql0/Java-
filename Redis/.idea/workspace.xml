@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Seckill:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f7917f75-983d-42bc-b111-45d27d230232" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Cloud2020/cloud-api-commons/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Cloud2020/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JedisDemo/src/ConnectRedis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seckill/src/com/atguigu/JedisPoolUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seckill/src/com/atguigu/SecKillServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seckill/src/com/atguigu/SecKill_redis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seckill/src/com/atguigu/SecKill_redisByScript.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seckill/web/WEB-INF/lib/commons-compiler-2.7.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seckill/web/WEB-INF/lib/commons-pool2-2.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seckill/web/WEB-INF/lib/janino-2.7.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seckill/web/WEB-INF/lib/jedis-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seckill/web/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seckill/web/WEB-INF/lib/logback-access-1.1.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seckill/web/WEB-INF/lib/logback-classic-1.1.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seckill/web/WEB-INF/lib/logback-core-1.1.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seckill/web/WEB-INF/lib/slf4j-api-1.7.21.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seckill/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seckill/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seckill/web/script/jquery/jquery-3.1.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Verify_code/src/com/atguigu/servlet/CodeSenderServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Verify_code/src/com/atguigu/servlet/CodeVerifyServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Verify_code/src/com/atguigu/utils/VerifyCodeConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Verify_code/web/WEB-INF/lib/aliyun-java-sdk-core-3.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Verify_code/web/WEB-INF/lib/aliyun-java-sdk-dysmsapi-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Verify_code/web/WEB-INF/lib/commons-pool2-2.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Verify_code/web/WEB-INF/lib/jedis-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Verify_code/web/WEB-INF/lib/jsp-api-2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Verify_code/web/WEB-INF/lib/servlet-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Verify_code/web/WEB-INF/lib/taobao-sdk-java-auto.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Verify_code/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Verify_code/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Verify_code/web/static/bs/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Verify_code/web/static/bs/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Verify_code/web/static/bs/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Verify_code/web/static/bs/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Verify_code/web/static/bs/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Verify_code/web/static/bs/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Verify_code/web/static/bs/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Verify_code/web/static/bs/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Verify_code/web/static/bs/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Verify_code/web/static/bs/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Verify_code/web/static/bs/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Verify_code/web/static/bs/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Verify_code/web/static/bs/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Verify_code/web/static/bs/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Verify_code/web/static/bs/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Verify_code/web/static/bs/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Verify_code/web/static/jquery/jquery-3.1.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-pool2-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jedis-3.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Verify_code_war_exploded/WEB-INF/classes/com/atguigu/servlet/CodeSenderServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Verify_code_war_exploded/WEB-INF/classes/com/atguigu/servlet/CodeVerifyServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Verify_code_war_exploded/WEB-INF/classes/com/atguigu/utils/VerifyCodeConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Verify_code_war_exploded/WEB-INF/lib/aliyun-java-sdk-core-3.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Verify_code_war_exploded/WEB-INF/lib/aliyun-java-sdk-dysmsapi-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Verify_code_war_exploded/WEB-INF/lib/commons-pool2-2.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Verify_code_war_exploded/WEB-INF/lib/jedis-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Verify_code_war_exploded/WEB-INF/lib/jsp-api-2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Verify_code_war_exploded/WEB-INF/lib/servlet-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Verify_code_war_exploded/WEB-INF/lib/taobao-sdk-java-auto.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Verify_code_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Verify_code_war_exploded/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Verify_code_war_exploded/static/bs/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Verify_code_war_exploded/static/bs/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Verify_code_war_exploded/static/bs/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Verify_code_war_exploded/static/bs/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Verify_code_war_exploded/static/bs/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Verify_code_war_exploded/static/bs/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Verify_code_war_exploded/static/bs/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Verify_code_war_exploded/static/bs/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Verify_code_war_exploded/static/bs/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Verify_code_war_exploded/static/bs/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Verify_code_war_exploded/static/bs/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Verify_code_war_exploded/static/bs/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Verify_code_war_exploded/static/bs/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Verify_code_war_exploded/static/bs/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Verify_code_war_exploded/static/bs/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Verify_code_war_exploded/static/bs/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/Verify_code_war_exploded/static/jquery/jquery-3.1.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JedisDemo/ConnectRedis.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Verify_code/com/atguigu/servlet/CodeSenderServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Verify_code/com/atguigu/servlet/CodeVerifyServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Verify_code/com/atguigu/utils/VerifyCodeConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cloud2020/cloud-api-commons/target/classes/net/mcsql/entities/CommonResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cloud2020/cloud-api-commons/target/classes/net/mcsql/entities/Payment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cloud2020/cloud-api-commons/target/cloud-api-commons-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../Cloud2020/cloud-api-commons/target/cloud-api-commons-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloud/cloud-api-commons/target/cloud-api-commons-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloud/cloud-api-commons/target/cloud-api-commons-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloud/cloud-api-commons/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloud/cloud-api-commons/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloud/cloud-config-center-3344/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloud/cloud-config-center-3344/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloud/cloud-config-center-3344/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloud/cloud-config-center-3344/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloud/cloud-config-client-3355/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloud/cloud-config-client-3355/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloud/cloud-config-client-3355/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloud/cloud-config-client-3355/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloud/cloud-consumerconsul-order80/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloud/cloud-consumerconsul-order80/target/classes/net/mcsql/ConsulOrder80.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloud/cloud-consumerconsul-order80/target/classes/net/mcsql/config/ApplicationContextConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloud/cloud-consumerconsul-order80/target/classes/net/mcsql/controller/OrderConsulController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloud/cloud-eureka-server7001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloud/cloud-eureka-server7001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloud/cloud-eureka-server7002/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloud/cloud-eureka-server7002/target/classes/net/mcsql/EurekaMain7001.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloud/cloud-provider-payment8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloud/cloud-provider-payment8001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloud/cloud-providerconsul-payment8006/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloud/cloud-providerconsul-payment8006/target/classes/net/mcsql/ConsulPayment8006.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloud/cloud-providerconsul-payment8006/target/classes/net/mcsql/controller/PaymentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloud/cloudalibaba-provider-payment9003/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloud/cloudalibaba-provider-payment9003/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloud/cloudalibaba-sentinel-service8401/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloud/cloudalibaba-sentinel-service8401/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloud/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloud/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloud/seata-order-service2001/src/main/java/net/mcsql/config/DataSourceProxyConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloud/seata-order-service2001/src/main/java/net/mcsql/config/DataSourceProxyConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloud/seata-order-service2001/src/main/java/net/mcsql/config/MyBatisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloud/seata-order-service2001/src/main/java/net/mcsql/config/MyBatisConfig.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1ipBKsnCNJQcY1xe74S657EqtKN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Java Code\JavaGit\Redis\lib" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Seckill">
+    <configuration name="ConnectRedis.connect01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JedisDemo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ConnectRedis" />
+      <option name="METHOD_NAME" value="connect01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConnectRedis.testKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JedisDemo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ConnectRedis" />
+      <option name="METHOD_NAME" value="testKey" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Seckill" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.24" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Seckill:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Seckill" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_Redis_3" />
+        <option name="HTTP_PORT" value="80" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="37143" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Seckill:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.24" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.24" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Verify_code:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Verify_code" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_Redis_2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="36633" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Verify_code:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.ConnectRedis.connect01" />
+      <item itemvalue="JUnit.ConnectRedis.testKey" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.24" />
+      <item itemvalue="Tomcat Server.Seckill" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ConnectRedis.testKey" />
+        <item itemvalue="JUnit.ConnectRedis.connect01" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f7917f75-983d-42bc-b111-45d27d230232" name="Default Changelist" comment="" />
+      <created>1602594591531</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602594591531</updated>
+      <workItem from="1602594597316" duration="1316000" />
+      <workItem from="1602675367248" duration="1057000" />
+      <workItem from="1602678318946" duration="4767000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
