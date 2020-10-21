@@ -20,8 +20,18 @@ public class JmsProduce {
         Queue queue = session.createQueue(QUEUE_NAME);
         //5. 创建消息的生产者
         MessageProducer producer = session.createProducer(queue);
-        //6. 通过使用MessageProducer产生3条消息发送到MQ的队列里面
-        for (int i = 0; i < 3; i++) {
+        //6. 通过使用MessageProducer产生3条消息发送到MQ的队列里面+
+
+        /**
+         * Queue默认是持久
+         */
+        //非持久
+//        producer.setDeliveryMode(DeliveryMode.NON_PERSISTENT);
+        //持久
+        producer.setDeliveryMode(DeliveryMode.PERSISTENT);
+
+
+        for (int i = 0; i < 30; i++) {
             //7. 创建消息，好比学生按照
             TextMessage textMessage = session.createTextMessage("msg---" + i);
             //8. 通过messaProducer发送给mq
