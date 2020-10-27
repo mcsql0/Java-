@@ -4,8 +4,8 @@ import javax.jms.*;
 
 public class JmsProduce {
 
-    public static final String ACTIVENQ_URL = "tcp://103.152.171.252:61616";
-    public static final String QUEUE_NAME = "queue01";
+    public static final String ACTIVENQ_URL = "tcp://192.168.137.133:61616";
+    public static final String QUEUE_NAME = "queue-AsyncSend";
 
     public static void main(String[] args) throws JMSException {
         //1. 创建链接工厂，按照给定的url地址，采用默认的用户名和密码

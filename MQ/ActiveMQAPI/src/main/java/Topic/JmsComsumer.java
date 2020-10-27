@@ -8,8 +8,8 @@ import java.util.IllegalFormatFlagsException;
 
 public class JmsComsumer {
 
-    public static final String ACTIVENQ_URL = "tcp://103.152.171.252:61616";
-    public static final String QUEUE_NAME = "topic-test";
+    public static final String ACTIVENQ_URL = "tcp://192.168.137.133:61616";
+    public static final String QUEUE_NAME = "topic-jdbc";
     public static int i = 0;
 
     public static void main(String[] args) throws JMSException, InterruptedException, IOException {
@@ -28,7 +28,7 @@ public class JmsComsumer {
             if (message != null && message instanceof TextMessage) {
                 try {
                     if (i == 3) {
-                        int a = 1/0;
+//                        int a = 1/0;
                     } else if (i == 20) {
                         session.commit();
                     }

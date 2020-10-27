@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+#配置ActiveMQ
+spring:
+  activemq:
+    broker-url: tcp://103.152.171.252:61616       #连接地址
+    user: admin                                   #用户名
+    password: admin           ·                   #密码
+  jms:                                            #指定连接队列还是主题
+    pub-sub-domain: true                         # false = Queue |  true = Topic
+
+##定义服务上的队列名
+myTopicName: topic-springboot-active

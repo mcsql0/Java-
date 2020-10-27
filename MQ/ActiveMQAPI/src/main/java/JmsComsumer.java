@@ -6,8 +6,8 @@ import java.io.IOException;
 
 public class JmsComsumer {
 
-    public static final String ACTIVENQ_URL = "tcp://103.152.171.252:61616";
-    public static final String QUEUE_NAME = "queue01";
+    public static final String ACTIVENQ_URL = "tcp://192.168.137.133:61616";
+    public static final String QUEUE_NAME = "queue-AsyncSend";
 
     public static void main(String[] args) throws JMSException, InterruptedException, IOException {
         ActiveMQConnectionFactory activeMQConnectionFactory =
@@ -15,7 +15,7 @@ public class JmsComsumer {
         Connection connection = activeMQConnectionFactory.createConnection();
         connection.start();
 
-        Session session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
+        Session session = connection.createSession(true, Session.AUTO_ACKNOWLEDGE);
         Queue queue = session.createQueue(QUEUE_NAME);
 
         MessageConsumer messageConsumer = session.createConsumer(queue);

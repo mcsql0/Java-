@@ -6,8 +6,8 @@ import javax.jms.*;
 
 public class JmsProduce {
 
-    public static final String ACTIVENQ_URL = "tcp://103.152.171.252:61616";
-    public static final String Topic_NAME = "topic-test";
+    public static final String ACTIVENQ_URL = "tcp://192.168.137.133:61616";
+    public static final String Topic_NAME = "topic-jdbc";
 
     public static void main(String[] args) throws JMSException {
 
